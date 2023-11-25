@@ -10,7 +10,6 @@
 #include "enemigo.h"
 #include <random>
 #include <vector>
-
 using namespace std;
  
 const int ALTO_ENEMIGO2 = 60;

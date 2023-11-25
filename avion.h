@@ -6,7 +6,6 @@
 #include "bala.h"
 #include <list>
 #include "bala.h"
-
 #include <SDL_ttf.h>
 
 

@@ -5,7 +5,6 @@
 #include <SDL_image.h>
 #include <list>
 #include "proyectil.h"
-#include <vector>
 
 
 using namespace std;
