@@ -1,0 +1,15 @@
+#ifndef BALATIPO1_H
+#define BALATIPO1_H
+#include "bala.h"
+#include <vector>
+
+class BalaTipo1 : public Bala {
+public:
+    BalaTipo1(int x, int y, SDL_Renderer* renderizador) : Bala(x, y, renderizador) {
+        SDL_Surface* superficie = IMG_Load("imagenes/rayo.png");
+        textura = SDL_CreateTextureFromSurface(renderizador, superficie);
+        SDL_FreeSurface(superficie);
+    }
+}; 
+
+#endif
