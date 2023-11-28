@@ -1,0 +1,5 @@
+# Excluir directorios de compilación de CMake
+cmake-build-debug/
+
+# Excluir archivos y directorios generados por CLion
+.idea/

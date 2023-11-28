@@ -111,7 +111,7 @@ public:
         IMG_Init(IMG_INIT_PNG);
 
         TTF_Init();
-        TTF_Font* fuente = TTF_OpenFont("letras.ttf", 20);
+        TTF_Font* fuente = TTF_OpenFont("fuentes/arial.ttf", 20);
 
         
 
@@ -120,7 +120,7 @@ public:
         SDL_Renderer* renderizador = SDL_CreateRenderer(ventana, -1, 0);
 
         // Supongamos que tienes las siguientes variables
-        SDL_Texture* textura_fondo = IMG_LoadTexture(renderizador, "imagenes/fondo1.png");
+        SDL_Texture* textura_fondo = IMG_LoadTexture(renderizador, "imagenes/fondoestre.jpg");
 
         /*comensar*/
         
@@ -170,7 +170,7 @@ public:
 
 
         Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);
-        Mix_Music* musica = Mix_LoadMUS("sonidos/sonido_fondo.MPEG");
+        Mix_Music* musica = Mix_LoadMUS("sonidos/musicajuego.MPEG");
 
 
         SDL_Event evento;
