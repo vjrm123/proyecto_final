@@ -1,6 +1,7 @@
 #ifndef BALA_H
 #define BALA_H
 
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <list>
@@ -18,11 +19,9 @@ class Bala : public Proyectil {
 protected:
     SDL_Texture* textura = nullptr;
 public:
-    
 
     Bala(int x, int y, SDL_Renderer* renderizador) : Proyectil(x, y, renderizador)
     {
-
         SDL_Surface* superficie = IMG_Load("imagenes/bala.png");
         textura = SDL_CreateTextureFromSurface(renderizador, superficie);
         SDL_FreeSurface(superficie);
@@ -30,8 +29,7 @@ public:
     ~Bala()
     {
         SDL_DestroyTexture(textura);
-        
-        
+               
     } 
 
 
@@ -81,8 +79,7 @@ public:
         SDL_Rect rect = { x, y, ANCHO_BALA, ALTO_BALA };
         return rect;
     }
-   
-    
+
 };
 
 #endif

@@ -1,11 +1,13 @@
 #ifndef ENEMIGOBASE_H
 #define ENEMIGOBASE_H
 
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <cstdlib>
 #include "avion.h"
 #include "musica.h"
+
 
 class EnemigoBase {
 protected:

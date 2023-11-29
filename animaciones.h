@@ -1,10 +1,12 @@
 #ifndef ANIMACIONES_H
 #define ANIMACIONES_H
 
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <string>
 #include <list>
+
 
 class Animacion {
 
@@ -38,7 +40,6 @@ public:
 
         return true;  
     }
-
 };
 
 #endif 

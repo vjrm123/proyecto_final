@@ -1,12 +1,14 @@
 #ifndef AVION_H
 #define AVION_H
 
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include "bala.h"
 #include <list>
 #include "bala.h"
 #include <SDL_ttf.h>
+
 
 const int ANCHO_AVION = 100;
 const int ALTO_AVION = 100;
